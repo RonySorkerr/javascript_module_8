@@ -25,5 +25,5 @@ const min = Math.min(5, 85, 8, 5, 8, 2, 8, 5);
 
 // console.log(Math.random());  // it returns with float but if we need an integer that we can do>>>>>>>>>>>>>>
 
-const rand = Math.round(Math.random() * 10);
+const rand = Math.round(Math.random()*15); // we could use floor, ceil but using round instead of these is a better option. cause, we can almost get the correct number we need.
 console.log(rand);
