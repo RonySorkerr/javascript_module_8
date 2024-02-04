@@ -49,4 +49,15 @@ function kgToGm(kg){
     return result;
 }
 
-console.log(kgToGm(555));
+// console.log(kgToGm(555));
+
+// kg to pound
+
+function kgToPound(kg){
+    const pound = kg * 2.20462;
+    const result = 'your result in pound is : ' + pound.toFixed(3) + ' pound';
+    return result;
+}
+
+const kG = 55;
+console.log(kgToPound(kG));
