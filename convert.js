@@ -28,4 +28,15 @@ function inchToFeet(Height){
 }
 
 const shamim = inchToFeet(68);
-console.log(shamim);
+// console.log(shamim);
+
+
+//kg to mg
+
+function kgToMg(kg){
+    const miliGram = kg * 100000;
+    let result = "your miligram is : " + miliGram + ' miligram';
+    return result;
+}
+// kgToMg(55);
+console.log(kgToMg(25));
