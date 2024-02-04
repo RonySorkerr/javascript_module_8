@@ -39,4 +39,14 @@ function kgToMg(kg){
     return result;
 }
 // kgToMg(55);
-console.log(kgToMg(25));
+// console.log(kgToMg(25));
+
+//kg to gram
+
+function kgToGm(kg){
+    const gram = kg * 1000;
+    const result = 'your result in gram is : ' + gram + ' gram ';
+    return result;
+}
+
+console.log(kgToGm(555));
